@@ -7,6 +7,7 @@
 	item_state = 'icons/mob/clothing/head/beret.dmi'
 	icon_override = 'icons/mob/clothing/head/beret.dmi'
 	dog_fashion = /datum/dog_fashion/head/beret
+	muhtar_fashion = /datum/muhtar_fashion/head/beret
 
 	sprite_sheets = list(
 		"Vox" = 'icons/mob/clothing/species/vox/head/beret.dmi'

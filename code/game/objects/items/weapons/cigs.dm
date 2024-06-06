@@ -49,6 +49,8 @@ LIGHTERS ARE IN LIGHTERS.DM
 		/obj/item/assembly/igniter,
 		/obj/item/gun/magic/wand/fireball))
 
+	muhtar_fashion = /datum/muhtar_fashion/mask/cigar
+
 
 /obj/item/clothing/mask/cigarette/Initialize(mapload)
 	. = ..()

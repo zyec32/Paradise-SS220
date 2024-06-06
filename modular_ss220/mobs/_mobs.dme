@@ -26,6 +26,7 @@
 #include "code/simple_animal/pets/fox.dm"
 #include "code/simple_animal/pets/pet.dm"
 #include "code/simple_animal/pets/rouge.dm"
+#include "code/simple_animal/pets/security_dog_stripping.dm"
 #include "code/simple_animal/pets/security_dogs.dm"
 #include "code/simple_animal/pets/slugcat.dm"
 #include "code/simple_animal/items.dm"

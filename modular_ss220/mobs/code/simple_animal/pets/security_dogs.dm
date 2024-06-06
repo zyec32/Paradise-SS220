@@ -15,6 +15,8 @@
 	attacktext = "кусает"
 	var/obj/item/inventory_head
 	var/obj/item/inventory_mask
+	///Item slots that are available for this security dog to equip stuff into
+	var/list/strippable_inventory_slots = list()
 	footstep_type = FOOTSTEP_MOB_CLAW
 	butcher_results = list(/obj/item/food/snacks/meat/security = 3)
 
@@ -66,6 +68,9 @@
 /mob/living/simple_animal/pet/dog/security/Initialize(mapload)
 	. = ..()
 	regenerate_icons()
+
+/mob/living/simple_animal/pet/dog/security/add_strippable_element()
+	AddElement(/datum/element/strippable, length(strippable_inventory_slots) ? create_strippable_list(strippable_inventory_slots) : GLOB.strippable_security_dog_items)
 
 /mob/living/simple_animal/pet/dog/security/Destroy()
 	QDEL_NULL(inventory_head)

@@ -111,6 +111,7 @@
 	allowed = list(/obj/item/food/snacks/candy/candy_corn, /obj/item/pen)
 	armor = list(MELEE = 15, BULLET = 5, LASER = 15, ENERGY = 5, BOMB = 0, RAD = 0, FIRE = 20, ACID = 50)
 	dog_fashion = /datum/dog_fashion/head/detective
+	muhtar_fashion = /datum/muhtar_fashion/head/detective
 
 	sprite_sheets = list(
 	"Vox" = 'icons/mob/clothing/species/vox/head.dmi',
