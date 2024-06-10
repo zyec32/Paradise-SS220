@@ -2,6 +2,7 @@
 	title = "Adjutant"
 	department_flag = JOBCAT_MEDSCI
 	flag = JOB_ADJUTANT
+	job_department_flags = DEP_FLAG_COMMAND
 	total_positions = 3
 	spawn_positions = 3
 	ru_title = "Адъютант"
